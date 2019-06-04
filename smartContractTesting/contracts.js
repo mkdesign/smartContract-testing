@@ -4,7 +4,7 @@ module.exports = {
     // Blockchain node to deploy the contracts
     deployment: {
       host: "localhost", // Host of the blockchain node
-      port: 8546, // Port of the blockchain node
+      port: 8555, // Port of the blockchain node
       type: "ws" // Type of connection (ws or rpc),
       // Accounts to use instead of the default account to populate your wallet.
       // The order here corresponds to the order of `web3.eth.getAccounts`, so the first one is the `defaultAccount`
@@ -32,8 +32,8 @@ module.exports = {
     // order of connections the dapp should connect to
     dappConnection: [
       "$WEB3",  // uses pre existing web3 object if available (e.g in Mist)
-      "ws://localhost:8546",
-      "http://localhost:8545"
+      "ws://localhost:55555",
+      "http://localhost:55555"
     ],
 
     // Automatically call `ethereum.enable` if true.
