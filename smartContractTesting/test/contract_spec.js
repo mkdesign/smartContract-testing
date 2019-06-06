@@ -108,9 +108,13 @@ contract("Lab3PersonalAccounting", function() {
   });
 
   it("Others cannot call this function", async function() {
-    await Lab3PersonalAccounting.methods.changeState().send({
-      from: accounts[1]
-    });
-    assert.notEqual(accounts[1], accounts[0]);
+    try {
+      await Lab3PersonalAccounting.methods.changeState().send({
+        from: accounts[1]
+      });
+    }
+    catch(error) {
+      assert.ok(error.message.includes("You must be owner"))
+    }
   });
 });

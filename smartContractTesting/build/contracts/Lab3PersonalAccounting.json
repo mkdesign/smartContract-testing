@@ -126,14 +126,14 @@
   "filename": "/Users/mehradkavian/Dropbox/George-Brown/design-patterns/smartContract-testing/smartContractTesting/.embark/contracts/personalBanking.sol",
   "originalFilename": "contracts/personalBanking.sol",
   "path": "/Users/mehradkavian/Dropbox/George-Brown/design-patterns/smartContract-testing/smartContractTesting/contracts/personalBanking.sol",
-  "gas": 238419,
+  "gas": 239684,
   "gasPrice": "20000000000",
   "type": "file",
   "deploy": true,
   "_gasLimit": 6000000,
   "error": false,
-  "deploymentAccount": "0xa5743e086D0dDb0f9BcF5e6575A21B5078cD9075",
+  "deploymentAccount": "0x76317f36242B9633a5D2656b20dF639A9fc13138",
   "realArgs": [],
-  "deployedAddress": "0xf92b98DB642Dba4586a34A2b631d2E84391c39CD",
-  "transactionHash": "0x8ce23910a7d1d38837d1ed22ecdd44a4704bc92f47eacc460c790ff563285f6d"
+  "deployedAddress": "0x495B75f6FF64dFb3204BE5b02F9C9431E727433f",
+  "transactionHash": "0x897101bd00fb3b586ff324b962fa433fea57856979bc03281bfc6aa907f43f73"
 }
